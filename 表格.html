@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格增删改</title>
+    <style>
+        table{
+            width:600px;
+            height:auto;
+            border:1px solid #ccc;
+            margin:0 auto;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+        thead tr th{
+            background: #ffe6b3;
+            font-size: 25px;
+        }
+        tbody{
+            font-size: 20px;
+        }
+        td,th{
+            text-align: center;
+            width:150px;
+            border-bottom: 1px solid #ccc;
+        }
+        #add{
+            color: red;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .del{
+            color: blue;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+        <tfoot>
+        <tr>
+            <td colspan="4" id="add">+</td>
+        </tr>
+        </tfoot>
+    </table>
+</body>
+<script>
+    let tbody=document.querySelector("tbody")
+    let add=document.querySelector("#add")
+    function reWrite() {
+        tbody.innerHTML="";
+        let data=getData();
+        let str=""
+        data.forEach(function (v,i) {
+            str+=
+              `<tr id="${i}">
+                   <td contenteditable="true" onblur="change(this)" data-role="name">${v.name}</td>
+                   <td contenteditable="true" onblur="change(this)" data-role="age">${v.age}</td>
+                   <td contenteditable="true" onblur="change(this)" data-role="sex">${v.sex}</td>
+                   <td class="del">删除</td>
+               </tr>`
+        })
+        tbody.innerHTML=str;
+    }
+    reWrite();
+
+    //获取数据
+    function getData() {
+        if(localStorage.data){
+            return JSON.parse(localStorage.data)
+        }else{
+            return [];
+        }
+    }
+
+    //保存数据
+    function saveData(data) {
+        localStorage.data=JSON.stringify(data)
+    }
+
+    //内容改变
+    function change(ele) {
+        let data=getData();
+        let index=ele.parentNode.id;
+        let arr=ele.getAttribute("data-role")
+        let val=ele.innerHTML;
+        data[index][arr]=val;
+        saveData(data)
+        reWrite()
+    }
+
+    //增加事件
+    add.onclick=function () {
+        let data=getData();
+        data.push({name:"",age:"",sex:""})
+        saveData(data);
+        reWrite();
+    }
+
+    //删除事件(事件委派)
+    tbody.onclick=function (e) {
+        let target=e.target;
+        if(target.className==="del"){
+            let data=getData();
+            let id=target.parentNode.id;
+            data.splice(id,1)
+            saveData(data)
+            reWrite();
+        }
+    }
+</script>
+</html>
