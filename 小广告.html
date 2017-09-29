@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+		.box{
+			width: 200px;
+			height: 200px;
+			background: red;
+			position: absolute;
+			top: 0;
+			left: 0;
+			position: relative;
+		}
+		.box1{
+			width: 20px;
+			height: 20px;
+			background: yellow;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="box1"></div>
+	</div>
+
+	<script>
+		let box = document.getElementsByClassName('box')[0];
+		let box1 = document.getElementsByClassName('box1')[0];
+
+		let t=setInterval(move,100);
+		let maxY = window.innerHeight-box.offsetHeight;
+		let maxX = window.innerWidth-box.offsetWidth;
+
+		let speed =10;
+		let sv =10;
+		 function move(){
+		 	let tops = box.offsetTop + speed;
+		 	let lefts = box.offsetLeft + sv;
+
+		 	if(tops <= 0){
+		 		tops = 0;
+ 		 		speed*=-1;
+
+		 	}
+		 	if(tops >= maxY){
+		 		speed*=-1;
+		 	}
+
+			if(lefts <= 0){
+		 		lefts = 0;
+ 		 		sv*=-1;
+		 	}
+		 	if(lefts >= maxX){
+		 		lefts = maxX;
+		 		sv*=-1;
+		 	}
+
+		 	box.style.top=tops+'px';
+
+		 	box.style.left=lefts+'px';
+ 		 }
+ 		 box1.onclick=function(){
+ 		 	box.style.display='none';
+ 		 }
+		box.onmouseover=function(){
+			clearInterval(t);
+		} 
+		box.onmouseout=function(){
+			t=setInterval(move,100);
+		}
+	</script>
+</body>
+</html>
