@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑","宋体",sans-;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #fff;
+}
+/*头部*/
+.header-box{
+    width:972px;
+    height:20px;
+    margin: 20px auto 10px;
+}
+.header-box>ul{
+    width:600px;
+    height:100%;
+    float: right;
+}
+.header-box>ul>li{
+    width:auto;
+    height: 100%;
+    border-right: 1px solid #000000;
+    float: left;
+    padding-right:25px;
+    padding-left:25px;
+    font-size: 16px;
+    /*cursor:pointer;*/
+}
+
+.header-box>ul>li:last-child{
+    border-right: 0;
+    padding-right:0;
+}
+.header-box>ul>li>a{
+    color: #000000;
+}
+.header-box>ul>li>a:hover{
+    color:red;
+}
+/*导航结束*/
+/*banner开始*/
+.banner-case{
+    width:100%;
+    height:300px;
+    background:url('../img/品牌banner.jpg') no-repeat center /cover ;
+}
+
+/*banner结束*/
+
+/*关于我们开始*/
+.about-as{
+    width:100%;
+    height:505px;
+    background-color: #f8f8f8;
+    position: relative;
+    overflow: hidden;
+}
+.about-img{
+    width:220px;
+    height:125px;
+    background-color: #235641;
+    position: absolute;
+    left:42%;
+    top:0;
+}
+.about-as>.about-p1{
+    margin-top:140px;
+    text-align: center;
+    font-size: 14px;
+    color:#46484c;
+}
+.about-p1>span:nth-of-type(2){
+    font-size: 16px;
+    color:#000000;
+}
+.about-p2{
+    line-height: 29px;
+    text-align: center;
+    font-size: 14px;
+    color:#46484c;
+}
+.bottom-p{
+    width:1040px;
+    height:auto;
+    margin: 100px auto;
+}
+.bottom-p>p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+}
+.about-p3 > span,.about-p5 > span{
+    font-size: 18px;
+    color:#000000;
+}
+.about-p4 > span,.about-p6 > span,.about-p7 > span{
+    color:#46484c;
+}
+/*关于我们结束*/
+
+
+/*脚本开始*/
+.foold-box{
+    width: 100%;;
+    height:186px;
+    background-color: #474747;
+    overflow: hidden;
+}
+.foold{
+    width:1040px;
+    height:150px;
+    margin:18px auto;
+    overflow: hidden;
+    position: relative;
+}
+.saoyisao{
+    width: 125px;
+    height:125px;
+    background-color: red;
+    float: right;
+}
+.saoyisao>img{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.foold>p{
+    width:900px;
+    height:25px;
+    font-size: 14px;
+    position: absolute;
+    top:130px;
+    left:160px;
+    font-size: 14px;
+    color:#7b91a2;
+}
+.foold>p>span{
+    margin-right: 10px;
+}
+.foold>p>span:last-child{
+    margin-right: 0;
+    font-size: 12px;
+    color:#ffffff;
+}
+.foold>p>span:nth-of-type(5){
+    margin-right: 97px;
+}
+/*脚本结束*/

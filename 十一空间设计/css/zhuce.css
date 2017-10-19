@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑","宋体",sans-;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #fff;
+}
+/*头部*/
+.header-box{
+    width:972px;
+    height:20px;
+    margin: 20px auto 10px;
+}
+.header-box>ul{
+    width:600px;
+    height:100%;
+    float: right;
+}
+.header-box>ul>li{
+    width:auto;
+    height: 100%;
+    border-right: 1px solid #000000;
+    float: left;
+    padding-right:25px;
+    padding-left:25px;
+    font-size: 16px;
+    /*cursor:pointer;*/
+}
+
+.header-box>ul>li:last-child{
+    border-right: 0;
+    padding-right:0;
+}
+.header-box>ul>li>a{
+    color: #000000;
+}
+.header-box>ul>li>a:hover{
+    color:red;
+}
+/*导航结束*/
+/*banner开始*/
+.banner-case{
+    width:100%;
+    height:300px;
+    background-color: red;
+}
+.banner-case>img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+/*banner结束*/
+/*注册开始*/
+/*留言板开始*/
+.liuyan-box{
+    width:420px;
+    height:auto;
+    margin:20px auto 0;
+}
+.liuyan-box>input{
+    width:265px ;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    background: #f9f6f6;
+}
+.liuyan-box>.yanzheng{
+    width:100px ;
+    height: 20px;
+}
+.xing{
+    margin-right: 80px;
+    color:red;
+}
+/*留言板*/
+textarea{
+    margin-top: 10px;
+    margin-left: 5px;
+    background: #f9f6f6;
+}
+.liuyan-box>button{
+    width:322px;
+    height:50px;
+    margin-top: 10px;
+    background: #6d6c6c;
+    color: #ffffff;
+    font-size: 16px;
+}
+/*显示留言*/
+.XS-liuyan{
+    margin-top:10px;
+    font-size: 14px;
+}
+.XS-huaxian{
+    margin-top: 10px;
+    border:1px dashed #d6d6d6;
+}
+.XS-ban{
+    width: 1010px;
+    height: 30px;
+    font-size: 16px;
+    color:#d6d6d6;
+    margin-top: 10px;
+}
+/*注册结束*/
+/*会员开始*/
+/*会员头部开始*/
+.header-case{
+    width:1040px;
+    height: 46px;
+    margin:50px auto;
+}
+.header-case>.ku{
+    width:1040px;
+    height:20px;
+    background-color: #484747;
+}
+.header-case>.ku>P{
+    margin-left:43%;
+    color:red;
+    font-size: 16px;
+    line-height: 20px;
+}
+.header-case>.ku>P>span:last-child{
+    margin-left:10px ;
+    color:#ffffff;
+}
+.wzi{
+    width:1040PX;
+    height:26PX;
+}
+.wzi>span{
+    margin-left:10px;
+    font-size: 14px;
+}
+.wzi-left,.wzi-rigth{
+    width:470PX;
+    height:1px;
+    background-color: #000000;
+    margin-top: 14px;
+}
+.wzi-left{
+    float: left;
+}
+.wzi-rigth{
+    float: right;
+}
+/*会员头部结束*/
+
+/*表格开始*/
+.biaoge{
+    width:715px;
+    height:auto;
+    margin:0 auto 40px;
+}
+.biaoge>h6{
+    margin-top:20px;
+    font-size: 18px;
+}
+/*会员结束*/
+
+/*服务保障开始*/
+.bz-font{
+    width:840px;
+    height:auto;
+    margin:20px auto;
+}
+.bz-font>li{
+    width:210px;
+    height: 125px;
+    float: left;
+    margin-bottom: 80px;
+}
+.bz-font>li:last-child{
+    margin-right: 0px;
+}
+.bz-font>li>a{
+    display: block;
+    width: 80px;
+    height:80px;
+    border-radius:50%;
+    margin:auto;
+    background: #474747;
+}
+.bz-font>li>a>i{
+    display: block;
+    width: 50px;
+    height:50px;
+    margin:auto;
+    line-height: 80px;
+}
+.bz-font>li>p{
+    font-size: 16px;
+    font-width: bold;
+    text-align: center;
+}
+.bz-font>li>p>span{
+    font-size: 14px;
+    color:#949090;
+}
+
+/*服务保障结束*/
+
+/*脚本开始*/
+.foold-box{
+    width: 100%;;
+    height:186px;
+    background-color: #474747;
+    overflow: hidden;
+}
+.foold{
+    width:1040px;
+    height:150px;
+    margin:18px auto;
+    overflow: hidden;
+    position: relative;
+}
+.saoyisao{
+    width: 125px;
+    height:125px;
+    background-color: red;
+    float: right;
+}
+.saoyisao>img{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.foold>p{
+    width:900px;
+    height:25px;
+    font-size: 14px;
+    position: absolute;
+    top:130px;
+    left:160px;
+    font-size: 14px;
+    color:#7b91a2;
+}
+.foold>p>span{
+    margin-right: 10px;
+}
+.foold>p>span:last-child{
+    margin-right: 0;
+    font-size: 12px;
+    color:#ffffff;
+}
+.foold>p>span:nth-of-type(5){
+    margin-right: 97px;
+}
+/*脚本结束*/
+
+
+
+
