@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑","宋体",sans-;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #fff;
+}
+/*头部*/
+.header-box{
+    width:972px;
+    height:20px;
+    margin: 20px auto 10px;
+}
+.header-box>ul{
+    width:600px;
+    height:100%;
+    float: right;
+}
+.header-box>ul>li{
+    width:auto;
+    height: 100%;
+    border-right: 1px solid #000000;
+    float: left;
+    padding-right:25px;
+    padding-left:25px;
+    font-size: 16px;
+    /*cursor:pointer;*/
+}
+
+.header-box>ul>li:last-child{
+    border-right: 0;
+    padding-right:0;
+}
+.header-box>ul>li>a{
+    color: #000000;
+}
+.header-box>ul>li>a:hover{
+    color:red;
+}
+/*导航结束*/
+/*banner开始*/
+.banner-case{
+    width:100%;
+    height:300px;
+    background:url('../img/banner4.jpg') no-repeat center /cover ;
+}
+/*banner结束*/
+/*案例展示开始*/
+.header-case{
+    width:1040px;
+    height: 66px;
+    margin:50px auto;
+}
+.header-case>.ku{
+    width:1040px;
+    height:30px;
+    background-color: #252525;
+}
+.header-case>.ku>span{
+    margin-left:43%;
+    color:red;
+    font-size: 26px;
+    line-height: 30px;
+}
+.wzi{
+    width:1040PX;
+    height:36PX;
+}
+.wzi>span{
+    margin-left:10px;
+}
+.wzi-left,.wzi-rigth{
+    width:480PX;
+    height:1px;
+    background-color: #000000;
+    margin-top: 14px;
+
+}
+.wzi-left{
+    float: left;
+}
+.wzi-rigth{
+    float: right;
+}
+/*图片展示*/
+.tu-zhanshi{
+    width:1040px;
+    height: auto;
+    margin: auto ;
+}
+.tu-zhanshi>li{
+    width:324px;
+    height:273px;
+    float: left;
+    margin-right: 31px;
+    margin-bottom: 31px;
+    position: relative;
+}
+.tu-zhanshi>li:nth-of-type(3n){
+    margin-right: 0;
+}
+.zhansh-img{
+    width: 324px;
+    height:230px;
+    border:1px solid #d6d6d6;
+
+}
+.zhansh-img>img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.tu-zhanshi>li>p{
+    width:326px;
+    height: 23px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.tu-zhanshi>li>p>span{
+   margin-left: 120px;
+    line-height: 23px;
+}
+.zhezhao{
+    width:324px;
+    height:273px;
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.shousuo{
+    display: block;
+    width:50px;
+    height:50px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left:43%;
+    top:34%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+
+}
+.tu-zhanshi>li>.zhezhao:hover{
+    opacity: 1;
+}
+
+/*脚本开始*/
+.foold-box{
+    width: 100%;;
+    height:186px;
+    background-color: #474747;
+    overflow: hidden;
+}
+.foold{
+    width:1040px;
+    height:150px;
+    margin:18px auto;
+    overflow: hidden;
+    position: relative;
+}
+.saoyisao{
+    width: 125px;
+    height:125px;
+    background-color: red;
+    float: right;
+}
+.saoyisao>img{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.foold>p{
+    width:900px;
+    height:25px;
+    font-size: 14px;
+    position: absolute;
+    top:130px;
+    left:160px;
+    font-size: 14px;
+    color:#7b91a2;
+}
+.foold>p>span{
+    margin-right: 10px;
+}
+.foold>p>span:last-child{
+    margin-right: 0;
+    font-size: 12px;
+    color:#ffffff;
+}
+.foold>p>span:nth-of-type(5){
+    margin-right: 97px;
+}
+/*脚本结束*/
