@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<spsconfig>
+    <version>1</version>
+    <base>
+        <type_id>85</type_id>
+        <action_name>action</action_name>
+        <version>1</version>
+        <crc_key>S2luZ3NvZnRQbGF0Zm9ybUAjOWQ4ZjNjI21yb2Z0YWxw</crc_key>
+    </base>
+    <url>
+        <query_update_url>http://vc.pc123.kingsoft.com:8080/vc/version?c=</query_update_url>
+        <ad_url_pre>http://ad.pc123.kingsoft.com:8080/ad</ad_url_pre>
+        <info_report_url_pre>http://typeeasy.pc123.cn/spdc/</info_report_url_pre>
+    </url>
+    <cache>
+        <limit_ad_cache_cnt>10</limit_ad_cache_cnt>
+        <current_ad_cache_cnt>0</current_ad_cache_cnt>
+        <limit_report_info_to_cache_cnt>10</limit_report_info_to_cache_cnt>
+        <current_report_info_to_cache_cnt>0</current_report_info_to_cache_cnt>
+    </cache>
+</spsconfig>

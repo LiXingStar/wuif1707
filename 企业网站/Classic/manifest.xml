@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="GBK"?>
+<manifest>
+<pkg-info>
+<typeid>manifest</typeid>
+<xml-version>1</xml-version>
+<project-name>金山打字游戏2010</project-name>
+<project-num>0200000201</project-num>
+<prj-version>8.1.0.1</prj-version>
+<control-version>126</control-version>
+<files-count>75</files-count>
+</pkg-info>
+<data>
+	<dir path=".">
+		<f md5="0d2e50899672d54a7c9959ab6f5150e8">config.xml</f>
+		<f md5="9a982f6787b32a0eb78a224279ac3432">TypeGame.exe</f>
+		<f md5="e864cac74e5c3a84dda839c2727dbad8">dx7vb.dll</f>
+		<f md5="93aa937bc63df3bccad84024621174cb">License.txt</f>
+		<f md5="4c8a880eabc0b4d462cc4b2472116ea1">msvcp80.dll</f>
+		<f md5="e4fece18310e23b1d8fee993e35e7a6f">msvcr80.dll</f>
+		<f md5="c69e436760a18738fe8092095f16f128">sps.dll</f>
+	</dir>
+	<dir path="./Data/English/E_General">
+		<f md5="0594fae04fb25f1bc1ba2b8e127e232e">Chinese film.txt</f>
+		<f md5="88dacdf2029245c4de0066297d383ae6">Chinese food culture.txt</f>
+		<f md5="cc19af44704afce8c2103d0040cbb1f2">Chinese New Year.txt</f>
+		<f md5="0be00d725126a9e6009a745cd9ad1349">Chinese travel abroad.txt</f>
+		<f md5="1027d96bc75ab1a269f0ff5f3f9b1548">Christmas Stockings' legend.txt</f>
+		<f md5="2348b3e364bd33bb088c13911a436d23">Christmas.txt</f>
+		<f md5="91ebccd399b107ef09c81454b0ddf071">contact lenses.txt</f>
+		<f md5="a77d8ce80c055bc61878f6c379b3906b">Davao.txt</f>
+		<f md5="230528d090d43cef5a26cdc75eafe283">development of China.txt</f>
+		<f md5="42005466f584b192fb2816c7695d952d">difference  attitude for marital spats.txt</f>
+		<f md5="d2cf1afafaf6afc0f902e6d362fcecdb">dispute about e-mail.txt</f>
+		<f md5="3c14c85099f2924658b9d38048db6916">Edison's story.txt</f>
+		<f md5="b68704cc9db93ffacfde03eacf748e1d">effect of Meteor Garden.txt</f>
+		<f md5="ab0b8d07e8a831cdeec5c100b220aaa0">ethnic minorities'customs.txt</f>
+		<f md5="6887d4192d438ab32bbd302d97243a60">Europe history.txt</f>
+		<f md5="d2b8c99bfce0c2271a40f6e8131618e4">feminism.txt</f>
+		<f md5="81f9f0c4eff87c377dbc5f1ea3ace08f">five scientific breakthroughs.txt</f>
+		<f md5="8b5b456952bee38ea639da3322c7e005">Germany economic development.txt</f>
+		<f md5="1cc88c52e9bc07fd002a2c57acec96e8">great books.txt</f>
+		<f md5="f964db7c921cfa1e60a0f44afd0c2e5d">Halloween.txt</f>
+		<f md5="ac44e6c149e365b3af2aeb45a0d32049">how to deal with rubbish.txt</f>
+		<f md5="6655ea2ffa271a4b8551cc490ee721ee">I have a dream.txt</f>
+		<f md5="5945ac27974caa751d602fe54ba4ecac">lunch.txt</f>
+		<f md5="eec4bd9345f2e4e19280cdd431e74a87">make resolutions.txt</f>
+		<f md5="1f2ee22df50a56406f496785f910d78d">Marley'death.txt</f>
+		<f md5="158bbd5e75faf24f8fcec07174d4939e">Materia Medica.txt</f>
+		<f md5="9e77f90ac2ac7b470be9c15fd020b098">Mid-Autumn Festival.txt</f>
+		<f md5="b55399d82f4d86a1711fc17cb23beaaa">national economy.txt</f>
+		<f md5="44eef61ee72210db0dc45ee98e3d3da4">Oscar Awards.txt</f>
+		<f md5="90fb6ae148ef3e4149ca4788d480ee8c">remark on e-mail.txt</f>
+		<f md5="7c16f4d84e263c88d492d1b0a1f1e4d9">Romantic works.txt</f>
+		<f md5="1f7bc926c69d8d5e7b2169df4cba0314">Songyuan City.txt</f>
+		<f md5="fbc733d6c92a0ac2ddf81367ac3a09a2">Spring Festival.txt</f>
+		<f md5="0e2962ea726c0284ddf19c450a1e4166">Swords culture.txt</f>
+		<f md5="5eb79c7b71fe174f7f1589c4f294d1a7">Thanksgiving Day .txt</f>
+		<f md5="068a36ea2d3ce5edb5e2f70a421e8ae2">The Academy of Motion Picture Arts and Sciences.txt</f>
+		<f md5="accaf207779816928f80b4aad64de43c">The art of Chinese cooking.txt</f>
+		<f md5="bebfce13cd87ac3ec2709ece61c0dbb2">The Asia-Pacific Economic Cooperation.txt</f>
+		<f md5="b8e2bec009aaa2108767531e973b59c9">the city of Jilin1.txt</f>
+		<f md5="11f27be83f02cf19c740a5b9236c7e14">the city of Jilin2.txt</f>
+		<f md5="4289781a21e02320095bccbb544640cc">The Grand Canyon.txt</f>
+		<f md5="e750bf0ebcb4863925fdcf9e77457fea">The origin of dollar.txt</f>
+		<f md5="7a5417765b927e8b715b3c99c20442e7">tracking technology.txt</f>
+		<f md5="a4179926cabf62b9f6a9d611398bae74">Yarmouth.txt</f>
+		<f md5="9fc69176f051f784f893132bba1e731b">a girl selling matches.txt</f>
+		<f md5="4f802c94d13b8f1045b5cf2a316ff1dd">American census.txt</f>
+		<f md5="59830ab9314ebf84f025c993d378d7e1">American personal hygiene.txt</f>
+		<f md5="325d763d5ab493b6af1c1fd0cff51536">An Italian fairy.txt</f>
+		<f md5="720b0a000b286cf1c5d4e2cfb82eee7e">anti globalization.txt</f>
+		<f md5="62ee988391906d8795517c4d6269d25d">Changbai Shan.txt</f>
+	</dir>
+	<dir path="./Data/English/T_WORD/Dictionary">
+		<f md5="2369ba5137670629b8eba18b5c7de96d">Grade.DAT</f>
+		<f md5="5022815094a9cfc4745ce3509a391f74">Grade.ID</f>
+		<f md5="0d9f4b7132a056f3ed691f637b407ff7">GRE.DAT</f>
+		<f md5="99d47f89b414ee4c0f7652d4a6fa0e1d">GRE.ID</f>
+		<f md5="9dd0aa6384f455f39f8f5880a9c7ccab">High.DAT</f>
+		<f md5="29b91f4e9e070c6f3b86afa302885a72">High.ID</f>
+		<f md5="239955dcdbae60dade1cf54fc321b22c">Middle.DAT</f>
+		<f md5="ffa86f0a9826f522b6561ca8f3dc62ec">Middle.ID</f>
+		<f md5="2588c2256335b3ff0b615935f3a8add6">GMAT.ID</f>
+		<f md5="f98ec919e1a3fc84c2758bd41fe0eb44">TOEFL.ID</f>
+		<f md5="f9e6837370487f8a9de9d8a55e2ce20f">4W.ID</f>
+		<f md5="eaa3d341f9aad164abae954422362aa4">6W.DAT</f>
+		<f md5="a10ab619b77b33f558bab73a5b65a636">6W.ID</f>
+		<f md5="6a3d467d78b82a772a9005fd4de167af">GMAT.DAT</f>
+		<f md5="94a991db9c1e2a6b0825b0485138bccb">4W.DAT</f>
+		<f md5="408ea67cbbdd41da52d9192e4fc127eb">TOEFL.DAT</f>
+	</dir>
+	<dir path="./game">
+		<f md5="92ffe806af67843d81e3b42a02d63664">GameRes.dll</f>
+		<f md5="8d472c33c6fff379f1795d57a80cee47">GameSnd.dll</f>
+	</dir>
+</data>
+</manifest>
