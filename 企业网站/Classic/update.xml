@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<manifest>
+<pkg-info>
+<typeid>manifest</typeid>
+<xml-version>1</xml-version>
+<project-name>update</project-name>
+<project-num>0100000101</project-num>
+<prj-version>1.0.0.34</prj-version>
+<control-version>122</control-version>
+<files-count>2</files-count>
+</pkg-info>
+<data>
+	<dir path=".">
+		<f md5="66f4f24a20c056ddcd6b2aa887181a1c">spssvc.exe</f>
+		<f md5="f17dd0ce71d01e00e417a3b151ac73cf">update.dll</f>
+	</dir>
+</data>
+</manifest>
